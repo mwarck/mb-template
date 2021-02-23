@@ -1,0 +1,133 @@
+/**
+custom css for Moving Bikers enterprise 
+mb 
+*/
+.hidden{
+  visibility: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+nav a.navbar-brand{
+  padding-left: 6rem !important;
+}
+body{
+  font-family: Helvetica !important;
+  color: #868686;
+  font-size: 1.18rem !important;
+}
+h1,h2{
+  color: #f18a26 !important;
+  font-weight: 600;
+}
+.logo-mb{
+  height: 6rem;
+}
+.navbar-mb{
+  font-size: 1.1rem;
+}
+.width-text{
+  max-width: 27rem;
+}
+.width-text h1{
+  font-size: 2.8rem;
+}
+.width-text p{
+  font-size: 1.25rem;
+}
+.mb-color{
+    color: #f6b577 ;
+}
+.mb-text-color{
+  color: #f18a26;
+}
+.mb-bg-color{
+    background-color: #f18a26;
+}
+.banner-mb{
+  position: relative;
+  width: 100%;
+  background-color: #FFF5F4;
+  overflow: hidden;
+}
+.custom-pr0{
+  padding-right: 0px !important;
+}
+a:hover{
+  color: #f6b577;
+}
+.btn-primary:hover{
+  background-color: #f6b577 !important;
+  border-color: #f6b577 !important;
+}
+.curve-bg{
+  background-image: url('/src/curva.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: auto;
+  min-height: auto;
+  width: auto;
+  height: 100%;
+}
+
+.btn-primary{
+  background-color: #f18a26;
+  border-color: #f18a26;
+}
+.btn{
+  border-radius: 1.5em !important;
+  padding:.25em 2.5em !important;
+}
+
+.img-fluid.beneficios-mb{
+  width: 50% !important;
+}
+.bg-success{
+  background-color:#f6b577 !important;
+}
+input{
+  border-top-color: #fff !important;
+  border-left-color: #fff !important;
+  border-right-color: #fff !important;
+  border-radius: 0px !important;
+  border-bottom-color: #f18a26 !important;
+  color: #f18a26 !important;
+}
+::placeholder{
+  color: #f18a26 !important;
+  opacity: 1;
+}
+:-ms-input-placeholder{
+  color: #f18a26 !important;
+}
+.hr-line{
+  border-top: 1px solid #f18a26;
+}
+@media(max-width:600px){
+  nav a.navbar-brand{
+    padding-left: 1rem!important;
+  }
+  #contact{
+    left: 2em;
+    bottom: 2em;
+  }
+
+  .navbar-mb{
+    font-size: .8rem;
+  }
+  .logo-mb{
+    height: 5rem;
+  }
+  .banner-mb .col-sm-5.pl-5{
+    padding-left: 2rem !important;
+  }
+  .banner-mb .col-sm-5.pl-5 h1{
+    font-size: 2.7rem;
+  }
+  .banner-mb .width-text.pl-3{
+    padding-left:0rem !important ;
+  }
+  .banner-mb .width-text.pl-3 .text-left.pl-5{
+    padding-left:0rem !important ;
+  }
+}
